@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    char s[]="welcome to c programming";
+    int count=1,i;
+    for(i=0;s[i]!='\0';i++) {
+        if(s[i]==' ') {
+            count++;
+        }
+    }
+    printf("%d\n",count);
+    return 0;
+}
